@@ -903,3 +903,11 @@ smart-bike-logs.xyz
 # =========================================================
 residual-junk-tracker.com
 endpoint-ad-exchange.xyz
+
+# ==========================================================
+# 101. ROKU ADVERTISING AND TELEMETRY
+# ==========================================================
+roku-telemetry.com
+roku-ad-services.net
+ads.roku.com
+logs.roku.com
