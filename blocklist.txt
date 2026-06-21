@@ -910,7 +910,6 @@ endpoint-ad-exchange.xyz
 roku-telemetry.com
 roku-ad-services.net
 ads.roku.com
-
 logs.roku.com
 
 # ==========================================================
