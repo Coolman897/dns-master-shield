@@ -994,3 +994,25 @@ allactivationkey.com
 wayangslot.net
 jasbellyfusion.com
 launcher.detynetwork.xyz
+
+# =================================================================
+# MASTER BLOCKLIST: TELEMETRY, ANALYTICS, AND SCRIPT PROTECTION
+# =================================================================
+
+# 1. OS AND APP TELEMETRY
+*.telemetry.microsoft.com
+*.diag.microsoft.com
+*.statsfe2.ws.microsoft.com
+*.vortex.data.microsoft.com
+
+# 2. AD-TRACKING AND ANALYTICS NETWORKS
+*.doubleclick.net
+*.ads.google.com
+*.ads.yahoo.com
+*.advertising.com
+*.analytics.google.com
+*.tagmanager.google.com
+
+# 3. CRYPTOCURRENCY MINER SCRIPTS (PROTECTION)
+*.coin-hive.com
+*.coinhive.com
