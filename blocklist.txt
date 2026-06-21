@@ -913,31 +913,30 @@ ads.roku.com
 logs.roku.com
 
 # ==========================================================
-# 102. CUSTOM MALWARE, PHISHING, AND C2 BLOCKLIST
+# PROACTIVE BLOCKLIST: SUSPICIOUS PATTERNS & UNKNOWN DOMAINS
 # ==========================================================
 
-# High-Risk gTLDs (Often associated with high malware volume)
+# High-Risk Top-Level Domains (TLDs)
+# Often used for bulk registrations due to low costs or lax oversight
 *.top
 *.xyz
 *.gdn
-*.tk
 *.bond
-*.vip
-*.shop
+*.monster
+*.icu
+*.cfd
+*.site
 
-# Known Malicious Infrastructure & DGA Patterns (Examples)
-launcher.detynetwork.xyz
-wayangslot.net
-jasbellyfusion.com
-allactivationkey.com
-
-# Common Phishing/Typosquatting Patterns
-# (Replace 'brand' with specific targets you wish to protect)
-brand-support.com
-brand-secure.net
-login-brand.org
-brand-login.com
-
-# Suspicious Patterns
+# Suspicious Infrastructure Patterns
+# Domains hosted on transient/free hosting platforms
 *.pages.dev
 *.surge.sh
+*.herokuapp.com
+*.netlify.app
+
+# Known Malicious/Low-Reputation Behavior Indicators
+# These patterns can be refined based on your specific network logs
+*login-*.com
+*secure-*.net
+*auth-*.org
+*update-*.xyz
