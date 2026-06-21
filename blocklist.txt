@@ -910,4 +910,35 @@ endpoint-ad-exchange.xyz
 roku-telemetry.com
 roku-ad-services.net
 ads.roku.com
+
 logs.roku.com
+
+# ==========================================================
+# 102. CUSTOM MALWARE, PHISHING, AND C2 BLOCKLIST
+# ==========================================================
+
+# High-Risk gTLDs (Often associated with high malware volume)
+*.top
+*.xyz
+*.gdn
+*.tk
+*.bond
+*.vip
+*.shop
+
+# Known Malicious Infrastructure & DGA Patterns (Examples)
+launcher.detynetwork.xyz
+wayangslot.net
+jasbellyfusion.com
+allactivationkey.com
+
+# Common Phishing/Typosquatting Patterns
+# (Replace 'brand' with specific targets you wish to protect)
+brand-support.com
+brand-secure.net
+login-brand.org
+brand-login.com
+
+# Suspicious Patterns
+*.pages.dev
+*.surge.sh
